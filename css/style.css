@@ -62,6 +62,7 @@
 }
 
 h2,
+h3,
 h4 {
   font-family: Helvetica;
   color: seashell;
@@ -72,6 +73,10 @@ h4 {
 
 h2 {
   font-size: 32px;
+}
+
+h3 {
+  font-size: 26px;
 }
 
 h4 {
@@ -88,12 +93,10 @@ h4 {
   align-items: center;
 }
 
-#feature {
+.tea-of-mth {
   justify-content: center;
   display: flex;
-  height: auto;
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .tea-img-container {
@@ -103,6 +106,7 @@ h4 {
   width: 1000px;
   justify-content: center;
   align-content: center;
+  margin-top: 20px;
 }
 
 .tea-img {
@@ -119,4 +123,44 @@ h4 {
   height: 200px;
   width: 300px;
   margin: 5px 10px;
+}
+
+.master-loc-container {
+  display: flex;
+  background-color: black;
+  height: 650px;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations-container {
+  display: flex;
+  background-image: url(../resources/img-locations-background.jpg);
+  padding-top: 80px;
+  height: 450px;
+  width: 1200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.locations-container h2 {
+  margin-bottom: 15px;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 20px;
+}
+
+.black-box-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 275px;
 }
